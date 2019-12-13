@@ -11,7 +11,7 @@
     "url": "https://github.com/twilio/cordova-plugin-twilio-chat/issues"
   },
   "scripts": {
-    "prepare": "node_modules/copyfiles/copyfiles node_modules/twilio-chat/dist/twilio-chat*.js www/. -f"
+    "prepare": "copyfiles node_modules/twilio-chat/dist/twilio-chat*.js www/. -f"
   },
   "cordova": {
     "id": "cordova-plugin-twilio-chat",
