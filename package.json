@@ -6,6 +6,7 @@
   "type": "git",
   "url": "git+https://github.com/twilio/cordova-plugin-twilio-chat.git"
   },
+  "main": "www/twilio-chat.js",
   "bugs": {
   "url": "https://github.com/twilio/cordova-plugin-twilio-chat/issues"
   },
