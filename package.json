@@ -1,36 +1,35 @@
 {
   "name": "cordova-plugin-twilio-chat",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "Cordova plugin for Twilio Programmable Chat",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/twilio/cordova-plugin-twilio-chat.git"
+  "type": "git",
+  "url": "git+https://github.com/twilio/cordova-plugin-twilio-chat.git"
   },
-  "main": "www/twilio-chat.js",
   "bugs": {
-    "url": "https://github.com/twilio/cordova-plugin-twilio-chat/issues"
+  "url": "https://github.com/twilio/cordova-plugin-twilio-chat/issues"
   },
   "scripts": {
-    "prepare": "copyfiles node_modules/twilio-chat/dist/twilio-chat*.js www/. -f"
+    "prepare": "node_modules/copyfiles/copyfiles node_modules/twilio-chat/dist/twilio-chat*.js www/. -f"
   },
   "cordova": {
-    "id": "cordova-plugin-twilio-chat",
-    "platforms": []
+  "id": "cordova-plugin-twilio-chat",
+  "platforms": []
   },
   "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-browser",
-    "twilio",
-    "twilio-chat",
-    "chat"
+  "ecosystem:cordova",
+  "cordova-android",
+  "cordova-ios",
+  "cordova-browser",
+  "twilio",
+  "twilio-chat",
+  "chat"
   ],
   "author": "Twilio",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "copyfiles": "^1.2.0",
-    "twilio-chat": "3.3.0"
+    "twilio-chat": "4.0.0"
   }
 }
